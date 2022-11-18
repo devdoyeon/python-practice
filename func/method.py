@@ -82,8 +82,8 @@ id(a) # 135072304 (해당 객체의 고유 주소 값)
 #- string에 prompt로 만들 내용을 적어준 후 사용자의 입력을 받아 반환한다.
 b = input('Enter: ') # 사용자의 입력이 변수 b에 저장된다.
 
-#= int(integer | float, [radix]) - return integer
-#- 숫자를 입력했을 때 정수 형태로 돌려준다. 두 번째 인자로 진수를 넣어줄 수 있다.
+#= int(integer | float | String, [radix]) - return integer
+#- 입력값을 정수 형태로 돌려준다. 두 번째 인자로 진수를 넣어줄 수 있다.
 int('5') # 5
 int('5.2') # 5
 int('1A', 16) # 16진수로 나타낸 1A = 26
